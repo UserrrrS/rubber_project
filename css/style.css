@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+html {
+  font-size: 10px;
+}
+
+img {
+  width: clamp(9rem, 10vw, 13rem);
+  margin-left: clamp(1rem, 10vw, 0rem);
+  margin-top: clamp(0.5Srem, 10vw, 0rem);
+  ;
+}
+
+
+header {
+  background: url("../images/Rectangle.png") center center/cover no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.main_nav {
+  display: flex;
+  padding-top: 8rem;
+  justify-content: space-between;
+}
+
+.main_btn {
+  width: clamp(5.6rem, 5vw, 7.6rem);
+  height: clamp(3.6rem, 3vw, 4.6rem);
+  margin-right: clamp(1rem, 10vh, 0rem);
+  border-radius: 10%;
+  border: 1px solid #FFFFFF;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.main_btn:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+
+.title {
+  padding-top: 11.3rem;
+}
+
+.main_text {
+  color: #FFF;
+  font-size: clamp(5rem, 5vw, 7.6rem);
+  font-weight: 700;
+  line-height: clamp(5rem, 5vw, 7rem);
+  margin-left: clamp(1rem, 10vw, 0rem);
+}
+
+.title_text {
+  max-width: 47rem;
+  height: 11.3rem;
+  padding-top: 3.5rem;
+  color: #FFF;
+  font-size: clamp(2rem, 1.75vw, 2.7rem);
+  font-weight: 400;
+  line-height: clamp(2.7rem, 1, 75vw, 3.7rem);
+  letter-spacing: 0.42px;
+  margin-left: clamp(1rem, 10vw, 0rem);
+}
+
+.all_btn {
+  width: 19.7rem;
+  height: 5.6rem;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: #DD9D4C;
+  color: #FFFFFF;
+}
+
+.all_btn:hover {
+  cursor: pointer;
+  background-color: orange;
+}
+
+.range_btn {
+  padding-top: 4rem;
+  margin-left: clamp(1rem, 10vw, 0rem);
+}
